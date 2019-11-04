@@ -15,7 +15,7 @@ void setup()
   Serial.println();
 
   // 와이파이 접속
-  WiFi.begin("KoreaUniv AP_S203", "piville99203"); // 공유기 이름과 비밀번호
+  WiFi.begin("", ""); // 공유기 이름과 비밀번호
 
   Serial.print("Connecting");
   while (WiFi.status() != WL_CONNECTED) // 와이파이 접속하는 동안 "." 출력
